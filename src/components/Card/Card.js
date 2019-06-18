@@ -15,7 +15,7 @@ class Card extends React.Component {
   }
 
   static propTypes = {
-    title: PropTypes.string,
+    title: PropTypes.node,
   }
 }
 
