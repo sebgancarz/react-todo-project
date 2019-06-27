@@ -21,6 +21,7 @@ export const pageContents = {
 };
 
 export const listData = {
+  id: 'to-do',
   title: 'Things to do <sup>soon!</sup>',
   description: 'Interesting things I want to check out!',
   image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
@@ -89,10 +90,22 @@ export const faqData = {
 
 const lists = [
   {
-    id: 'list-1',
+    id: 'to-do',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'to-learn',
+    title: 'Things to learn <sup>anytime!</sup>',
+    description: 'Languages and tools I want to learn',
+    image: 'https://i.postimg.cc/ZKW04KJg/tools.jpg',
+  },
+  {
+    id: 'to-write',
+    title: 'Applications to write <sup>when I learn!</sup>',
+    description: 'Ideas which I want to convert into apps',
+    image: 'https://i.postimg.cc/rm9MC7M5/apps.png',
   },
 ];
 

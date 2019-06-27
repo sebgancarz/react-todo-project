@@ -6,6 +6,7 @@ import Faq from '../Faq/Faq';
 import {BrowserRouter, Route} from 'react-router-dom';
 import MainLayout from '../MainLayout/MainLayout';
 import {AnimatedSwitch} from 'react-router-transition';
+import List from '../List/ListContainer';
 
 const App = () => (
   <BrowserRouter>
@@ -18,6 +19,7 @@ const App = () => (
         <Route exact path='/' component={Home} />
         <Route exact path='/info' component={Info} />
         <Route exact path='/faq' component={Faq} />
+        <Route exact path="/list/:id" component={List} />
       </AnimatedSwitch>
     </MainLayout>
   </BrowserRouter>
