@@ -2,7 +2,7 @@
 
 .component {
   flex-shrink: 0;
-  width: calc(33% - 12px);
+  width: 100%;
   background: $color-light;
   margin: 0 $base-size $base-size 0;
   padding: ($base-size * 1.5);
@@ -15,23 +15,19 @@
   }
 }
 
-.title {
-  text-align: center;
-  font-size: ($base-size * 1.5);
-  margin: 0 0 ($base-size * 1.5) 0;
+.links {
+  text-decoration: none;
+  color: $color-dark;
 }
 
-.icon > * {
-  padding-right: $base-size;
-  color: $color-warning;
-  font-size: ($base-size * 2);
-  vertical-align: middle;
+.links:hover {
+  color: $color-success;
+  transition: all 1s ease;
 }
 
 @media (max-width: 767px) {
 
   .component {
-    width: 100%;
     margin: 0 0 $base-size 0;
   }
 }

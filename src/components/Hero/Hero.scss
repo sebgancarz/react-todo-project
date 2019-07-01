@@ -18,7 +18,7 @@
   text-transform: uppercase;
   color: $color-light;
   transform: translate(-50%,-50%);
-  text-shadow: #0c1961 0 0 20px, #0c1961 0 0 40px;
+  text-shadow: $color-dark 0 0 4px, $color-dark 0 0 12px, $color-dark 0 0 32px;
 }
 
 .image {
