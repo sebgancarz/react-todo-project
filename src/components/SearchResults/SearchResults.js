@@ -24,6 +24,7 @@ class SearchResults extends React.Component {
 
           <div className={styles.component}>
             {cards.map(cardData => {
+
               return (
                 <Link className={styles.links} to={`/list/${cardData.listId}`} key={cardData.id}>
                   <Card key={cardData.id} {...cardData} />
@@ -39,7 +40,7 @@ class SearchResults extends React.Component {
 
   static propTypes = {
     cards: PropTypes.array,
-    listId: PropTypes.string,
+    listId:PropTypes.string,
     searchResults: PropTypes.array,
   }
 }
